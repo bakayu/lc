@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class lc1480 {
+class lc1480 {
 
     public int[] runningSum(int[] nums) {
         int sum = 0;
@@ -13,9 +13,7 @@ public class lc1480 {
 
         return nums;
     }
-}
 
-class Main {
     public static void main(String[] args) {
         lc1480 sol = new lc1480();
 
