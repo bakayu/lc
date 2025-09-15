@@ -35,13 +35,13 @@ class lc989 {
         List<List<Integer>> expected = Arrays.asList(
                 Arrays.asList(1, 2, 3, 4),
                 Arrays.asList(4, 5, 5),
-                Arrays.asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 1),
+                Arrays.asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
                 Arrays.asList(1, 0, 0, 0));
 
         for (int i = 0; i < testCases.length; i++) {
             List<Integer> result = solution.addToArrayForm(testCases[i], kCases[i]);
             System.out.println("Test " + (i + 1) + ": num = " + Arrays.toString(testCases[i]) + ", k = " + kCases[i]);
-            System.out.println("Output: " + result + " (Expected: " + expected.get(i) + ")");
+            System.out.println("Output: \t" + result + " \nExpected: \t" + expected.get(i) + "");
         }
     }
 }
